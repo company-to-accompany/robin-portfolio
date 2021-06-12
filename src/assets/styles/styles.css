@@ -102,7 +102,6 @@ p {
   display: grid;
   height: 100vh;
   grid-template-rows: auto 1fr;
-  margin: 0 8rem;
 }
 
 .btn {
@@ -118,8 +117,8 @@ p {
   display: none !important;
 }
 
-@media screen and (max-width: 600px) {
-  .app-layout {
-    margin: 0 3rem;
+@media screen and (max-width: 768px) {
+  .btn {
+    font-size: 1.6rem;
   }
 }

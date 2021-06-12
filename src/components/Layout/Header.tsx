@@ -9,7 +9,7 @@ const Header = () => {
   const [windowSize] = useWindowSize()
   const [open, setOpen] = useState(false)
 
-  const showMenu = windowSize.width >= 768 || open
+  const showMenu = windowSize.width > 768 || open
 
   console.log({ windowSize })
   return (
