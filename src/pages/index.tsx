@@ -1,11 +1,14 @@
 import { Link } from "gatsby"
 import React from "react"
 import Layout from "../components/Layout"
+import { Title } from "../components/Title"
+
 import "../assets/styles/home.css"
 
 export default function Home() {
   return (
     <Layout>
+      <Title text="Robin | Home" />
       <section id="home" className="home">
         <h1 className="home__header">
           <mark className="home__header-highlight">Hello</mark>, I'm a software
