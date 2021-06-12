@@ -21,13 +21,19 @@ const Header = () => {
         <MenuBar open={open} setOpen={setOpen} />
         <ul className={`nav__list ${showMenu ? "" : "d-none"}`}>
           <li className="nav__item">
-            <Link to="/about">About</Link>
+            <Link to="/about" activeClassName="active">
+              About
+            </Link>
           </li>
           <li className="nav__item">
-            <Link to="/projects">Projects</Link>
+            <Link to="/projects" activeClassName="active">
+              Projects
+            </Link>
           </li>
           <li className="nav__item">
-            <Link to="/contact">Contact me</Link>
+            <Link to="/contact" activeClassName="active">
+              Contact me
+            </Link>
           </li>
         </ul>
       </nav>

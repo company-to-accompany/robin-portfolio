@@ -31,6 +31,10 @@
   font-size: 2rem;
 }
 
+.nav__item > .active {
+  color: #ccc;
+}
+
 .nav__item > a:hover {
   color: #ccc;
   border-bottom: 3px solid var(--color-accent);
