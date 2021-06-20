@@ -12,7 +12,7 @@
 }
 
 .contact__title {
-  font-size: 5rem;
+  font-size: 4rem;
   color: var(--color-primary);
 }
 
@@ -45,6 +45,6 @@
 
 @media screen and (max-width: 600px) {
   .contact__title {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }
