@@ -1,0 +1,60 @@
+.styled-btn {
+  padding: 2rem;
+  border: 1px solid var(--color-accent);
+  color: var(--color-accent);
+  font-size: 2.2rem;
+  position: relative;
+  font-weight: bold;
+}
+
+.styled-btn .border-1 {
+  position: absolute;
+  left: 0;
+  width: 50%;
+  border-top: 2px solid var(--color-accent);
+  top: -3px;
+  transition: left 0.3s;
+}
+
+.styled-btn:hover .border-1 {
+  left: 50%;
+}
+
+.styled-btn .border-2 {
+  position: absolute;
+  right: 0;
+  bottom: -3px;
+  width: 50%;
+  border-top: 2px solid var(--color-accent);
+  transition: right 0.3s;
+}
+
+.styled-btn:hover .border-2 {
+  right: 50%;
+}
+
+.styled-btn .border-3 {
+  position: absolute;
+  left: -3px;
+  bottom: 0;
+  height: 50%;
+  border-left: 2px solid var(--color-accent);
+  transition: bottom 0.3s;
+}
+
+.styled-btn:hover .border-3 {
+  bottom: 50%;
+}
+
+.styled-btn .border-4 {
+  position: absolute;
+  right: -3px;
+  top: 0;
+  height: 50%;
+  border-left: 2px solid var(--color-accent);
+  transition: top 0.3s;
+}
+
+.styled-btn:hover .border-4 {
+  top: 50%;
+}

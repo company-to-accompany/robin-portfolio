@@ -2,6 +2,7 @@ import { Link } from "gatsby"
 import React from "react"
 import Layout from "../components/Layout"
 import { Title } from "../components/Title"
+import StyledButton from "../components/StyledButton"
 // @ts-ignore
 import image from "../assets/img/robin.jpg"
 
@@ -39,18 +40,28 @@ const About = () => {
             </Link>
           </div>
         </article>
-        <article>
-          <h2>Skills & Tools</h2>
-          <div>
-            <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>Javascript</li>
-              <li>React Js</li>
-              <li>Node Js</li>
-              <li>Git</li>
-            </ul>
-          </div>
+        <article className="skills">
+          <h2 className="skills__title">Skills & Tools</h2>
+          <ul className="skills_list">
+            <li className="skills_list-item">
+              <StyledButton text="HTML" />
+            </li>
+            <li className="skills_list-item">
+              <StyledButton text="CSS" />
+            </li>
+            <li className="skills_list-item">
+              <StyledButton text="Javascript" />
+            </li>
+            <li className="skills_list-item">
+              <StyledButton text="React Js" />
+            </li>
+            <li className="skills_list-item">
+              <StyledButton text="Node Js" />
+            </li>
+            <li className="skills_list-item">
+              <StyledButton text="Git" />
+            </li>
+          </ul>
         </article>
       </section>
     </Layout>

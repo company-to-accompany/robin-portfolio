@@ -43,6 +43,31 @@
   object-fit: cover;
 }
 
+.skills {
+  display: flex;
+  flex-direction: column;
+  padding: 0 9rem;
+  margin-top: 5rem;
+}
+
+.skills__title {
+  text-align: end;
+  margin-bottom: 4rem;
+  color: var(--color-primary);
+}
+
+.skills_list {
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.skills_list-item {
+  margin: 2rem 3rem;
+}
+
 @media screen and (max-width: 1440px) {
   .aboutme {
     flex-direction: column;
@@ -56,6 +81,13 @@
   .aboutme__img-container {
     position: initial;
     margin-top: 4rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .skills_list {
+    flex-direction: column;
+    text-align: center;
   }
 }
 
