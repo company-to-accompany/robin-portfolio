@@ -7,7 +7,6 @@ export const useWindowSize = () => {
     });
 
     useEffect(() => {
-        console.log('use effect called');
         const updateWindowSize = () => {
             setWindowSize({
                 width: window.innerWidth,

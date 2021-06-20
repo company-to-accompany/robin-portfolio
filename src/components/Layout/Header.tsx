@@ -11,7 +11,6 @@ const Header = () => {
 
   const showMenu = windowSize.width > 768 || open
 
-  console.log({ windowSize })
   return (
     <header className="header">
       <nav className="nav">
