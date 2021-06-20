@@ -1,0 +1,2 @@
+(self.webpackChunkrobin_portfolio=self.webpackChunkrobin_portfolio||[]).push([[218],{938:function(e,t,n){"use strict";n.r(t);var o=n(7294),a=n(5444),l=n(4872),c=n(4584);t.default=function(){return o.createElement(l.Z,null,o.createElement(c.D,{text:"Robin | Page not found"}),o.createElement("section",{className:"page-not-found"},o.createElement("h1",{className:"notfound__title"},"Page not found"),o.createElement(a.Link,{className:"notfound__link",to:"/"},"Go to Home")))}}}]);
+//# sourceMappingURL=component---src-pages-404-tsx-350d142c7672e9cb1e7f.js.map
